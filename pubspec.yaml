@@ -1,0 +1,25 @@
+name: preload_images_example
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+
+  skeleton_text: ^1.0.0
+
+  flutter_advanced_networkimage: ^0.7.0
+
+# force new version because it correlates with flutter_advanced_networkimage: ^0.7.0
+dependency_overrides:
+  flutter_svg: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
